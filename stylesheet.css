@@ -1,0 +1,333 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.lijsten{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    padding-left: 1000px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.navigatie{
+    background-color: #F2DCDD;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+
+.achtergrond{
+    background-color: #F2DCDD;
+    padding-top: 20px;
+    padding-bottom: 30px; 
+}
+
+nav a{
+    text-decoration: none;
+    color: #293133;
+}
+
+.titel{
+    position: absolute;
+    top: 770px;
+    left: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:300%;
+    display: flex;
+    justify-content: center;
+    color: #293133;
+}
+
+.hometekst{
+    position: absolute;
+    top: 790px;
+    left: 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #293133;
+}
+
+.index :hover{
+    text-decoration-line: underline;
+}
+
+.portfoliolijn :hover{
+    text-decoration-line: underline;
+}
+
+.contacten :hover{
+    text-decoration-line: underline;
+}
+
+.intro{
+    position: absolute;
+    top: 200px;
+    left: 510px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:300%;
+    display: flex;
+    justify-content: center;
+    color: #293133;
+}
+
+.koptekst{
+    font-size:350%;
+    color: #293133;
+    top: 130px;
+    left: 45%;
+    position: absolute;
+}
+
+.bodytekst{
+    margin: 140px;
+    font-family:fantasy;
+    display: flex;
+    justify-content: center;
+}
+
+h2 a{
+    text-decoration: none;
+    color: #293133;
+}
+
+h3{
+    margin-top: 50px;
+}
+
+.koken{
+    width: 320px;
+    height: 400px;
+   position: absolute;
+   top: 300px;
+   left: 400px;
+   border-radius: 7%;
+   /* border-style: double;
+   padding: 30px;
+   background-color: #F2DCDD; */
+}
+
+.podcast{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:345px;
+   left: 645px;
+   border-radius: 7%;
+}
+
+.passie{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:345px;
+   left: 1110px;
+   border-radius: 7%;
+}
+
+.duurzaam{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:345px;
+   left: 150px;
+}
+
+.project1{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:850px;
+   left: 150px;
+   border-radius: 7%;
+}
+
+.vormgeving{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:850px;
+   left: 645px;
+}
+
+.game{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   top:850px;
+   left: 1100px;
+   border-radius: 7%;
+}
+
+.plattegrond{
+    width: 650px;
+    height: 650px;
+   position: absolute;
+   top: 850px;
+   right: 600px;
+}
+
+.persoon{
+    position: absolute;
+    width: 390px;
+    top: 150px ;
+    left: 80px;
+    border: #F2DCDD;
+    border-style: double;
+    background-color: #F2DCDD;
+}
+
+.button{
+    border: #293133;
+    border-style: double;
+    border: white;
+    border-radius: 7px;
+    padding: 20px;
+    background-color:white;
+    position: absolute;
+    top: 290px;
+    left: 520px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #293133;
+}
+
+.afbeeldingen{
+    position: absolute;
+    width: 400px;
+    top: 1000px ;
+    left: 250px;
+}
+
+.kunst{
+    position: absolute;
+    width: 400px;
+    top: 1000px ;
+    left: 670px;
+}
+
+.sushi{
+    position: absolute;
+    width: 400px;
+    top: 1000px ;
+    left: 1090px;
+}
+
+.lunch{
+    position: absolute;
+    width: 400px;
+    top: 1570px ;
+    left: 250px;
+}
+
+.expo{
+    position: absolute;
+    width: 400px;
+    top: 1570px ;
+    left: 670px;
+}
+
+.bloemen{
+    position: absolute;
+    width: 400px;
+    top: 1570px ;
+    left: 1090px;
+}
+
+footer{
+   position:relative;
+   top: 1450px;
+   padding: 50px;
+   background-color: #F2DCDD;
+   width: 100%;
+}
+
+.sectie1{
+    background-color: #F2DCDD;
+    padding: 325px;
+}
+
+.poster{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 700px;
+    width: 335px;
+}
+
+.knopje{
+    position: absolute;
+    top: 600px;
+    left: 730px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    background-color: #F2DCDD;
+}
+
+.pauzeknop{
+    position: absolute;
+    top: 600px;
+    left: 990px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    background-color: #F2DCDD;
+}
+
+.podcastpagina{
+    width: 600px;
+    height: 600px;
+   position: absolute;
+   top: 110px;
+   left: 50px;
+   border-radius: 7%;
+}
+
+.informatie{
+    position: absolute;
+    left: 690px;
+    top: 200px;
+    right: 180px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.podcasth1{
+    position: absolute;
+    left: 690px;
+    top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.instagram{
+    width: 50px;
+    margin-top: -35px;
+}
+
+.email{
+    width: 57px;
+    margin-top: 2-px;
+    margin-left: -3px;
+}
+
+.footer{
+    list-style: none;
+}
+
+.shotglas{
+    position: absolute;
+    width: 700px;
+    top: 750px;
+    left: 300px;
+}
